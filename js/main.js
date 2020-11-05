@@ -1,19 +1,42 @@
-// I took it from stackoverflow
+var mySwiper = new Swiper('.swiper-container.speciality__content', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
 
-var btnScrollDown = document.querySelector('.scroll_down');
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-function scrollDown() {
-    var windowCoords = document.documentElement.clientHeight;
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
-    (function scroll() {
-        if (Math.ceil(window.pageYOffset) < Math.ceil(windowCoords)) {
-            window.scrollBy(0, 10);
-            setTimeout(scroll, 2);
-        }
-            if (Math.ceil(window.pageYOffset) > Math.ceil(windowCoords)) {
-                window.scrollTo(0, Math.ceil(windowCoords));
-        }
-    })();
-};
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
 
-     btnScrollDown.addEventListener('click', scrollDown);
+var mySwiper2 = new Swiper('.swiper-container.gallery', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+
+  pagination: {
+    el: '.swiper-pagination-two-slider',
+  },
+})
+
+// burger menu
+
+const burger = document.querySelector('.burger');
+const header = document.querySelector('.hero__header');
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle('burger--active');
+  header.classList.toggle('header--active');
+});

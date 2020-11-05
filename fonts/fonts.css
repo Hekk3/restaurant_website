@@ -1,0 +1,94 @@
+/* Open Sans */
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Bold.eot');
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+		url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-Bold.woff') format('woff'),
+		url('OpenSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Light.eot');
+	src: local('Open Sans Light'), local('OpenSans-Light'),
+		url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-Light.woff') format('woff'),
+		url('OpenSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.eot');
+	src: local('Open Sans Regular'), local('OpenSans-Regular'),
+		url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-Regular.woff') format('woff'),
+		url('OpenSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-SemiBold.eot');
+	src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+		url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-SemiBold.woff') format('woff'),
+		url('OpenSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-ExtraBold.eot');
+	src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+		url('OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-ExtraBold.woff') format('woff'),
+		url('OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* Banny */
+
+@font-face {
+    font-family: 'Banny';
+    src: url('Banny-Round.eot'); /* IE9 Compat Modes */
+    src: url('Banny-Round.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Banny-Round.woff') format('woff'), /* Modern Browsers */
+         url('Banny-Round.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Banny-Round.svg#Banny-Round') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Banny';
+    src: url('Banny-BoldRound.eot'); /* IE9 Compat Modes */
+    src: url('Banny-BoldRound.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Banny-BoldRound.woff') format('woff'), /* Modern Browsers */
+         url('Banny-BoldRound.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Banny-BoldRound.svg#Banny-BoldRound') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Banny';
+    src: url('Banny-LightRound.eot'); /* IE9 Compat Modes */
+    src: url('Banny-LightRound.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Banny-LightRound.woff') format('woff'), /* Modern Browsers */
+         url('Banny-LightRound.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Banny-LightRound.svg#Banny-LightRound') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
